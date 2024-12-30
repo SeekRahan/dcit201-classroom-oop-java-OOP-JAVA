@@ -1,4 +1,4 @@
-package org.example;
+package rental;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ public class Customer {
         this.name = name;
         this.rentalHistory = new ArrayList<>();
     }
-
+    // Rental History
     public String getCustomerId() {
         return this.customerId;
     }

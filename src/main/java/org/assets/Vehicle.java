@@ -1,4 +1,4 @@
-package org.example;
+package org.assets;
 
 public abstract class Vehicle implements Rentable {
     private String vehicleId;
@@ -12,6 +12,8 @@ public abstract class Vehicle implements Rentable {
         this.baseRentalRate = baseRentalRate;
         this.isAvailable = true;
     }
+
+    // Insert the following into the place
 
     public String getModel() {
         return this.model;
@@ -38,11 +40,11 @@ public abstract class Vehicle implements Rentable {
     }
 
     public boolean isAvailable() {
-        return this.isAvailable;
+        return isAvailable;
     }
 
     public void setAvailable(boolean available) {
-        this.isAvailable = available;
+        isAvailable = available;
     }
 
     public abstract double calculateRentalCost(int days);

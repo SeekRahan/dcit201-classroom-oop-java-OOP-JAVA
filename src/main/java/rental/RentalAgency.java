@@ -1,4 +1,7 @@
-package org.example;
+package rental;
+
+import org.assets.Car;
+import org.assets.Vehicle;
 
 public class RentalAgency {
     private Car[] cars;

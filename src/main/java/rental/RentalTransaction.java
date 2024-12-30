@@ -1,4 +1,6 @@
-package org.example;
+package rental;
+
+import org.assets.Vehicle;
 
 public class RentalTransaction {
     private Customer customer;
@@ -34,7 +36,7 @@ public class RentalTransaction {
     public void setCustomer(Customer customer) {
         this.customer = customer;
     }
-
+        // Rental Transactions - Payments and Receipts
     public double calculateTotalCost() {
         return this.vehicle.calculateRentalCost(this.days);
     }
