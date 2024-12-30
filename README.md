@@ -1,15 +1,15 @@
 # OOP-JAVA(DCIT 201 - Graded Assignment)
-# Advanced Vehicle Rental Management System
+# Advanced Vehicle rental Management System
 
 ## Assignment Objective
-Design a comprehensive Vehicle Rental Management System that demonstrates **ALL** Object-Oriented Programming (OOP) Principles:
+Design a comprehensive Vehicle rental Management System that demonstrates **ALL** Object-Oriented Programming (OOP) Principles:
 - Encapsulation
 - Inheritance
 - Polymorphism
 - Abstraction
 - Composition
 
-## Problem Domain: Vehicle Rental Management System
+## Problem Domain: Vehicle rental Management System
 
 ### Core Requirements
 
@@ -38,7 +38,7 @@ Each vehicle class must:
 
 #### 4. Polymorphism Implementation
 Create interfaces and method overriding:
-- `Rentable` interface with methods:
+- `org.assets.Rentable` interface with methods:
   - `rent(Customer customer, int days)`
   - `returnVehicle()`
 - Override methods in each vehicle class
@@ -69,7 +69,7 @@ public abstract class Vehicle {
 
 #### Vehicle Specific Classes
 Each vehicle class must implement unique:
-- Rental cost calculations
+- rental cost calculations
 - Availability checks
 - Special features
 

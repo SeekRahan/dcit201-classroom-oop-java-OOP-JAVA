@@ -1,4 +1,6 @@
-package org.example;
+package org.assets;
+
+import rental.Customer;
 
 public interface Rentable {
 
